@@ -1,0 +1,54 @@
+{
+  "project_info": {
+    "project_number": "322245622706",
+    "project_id": "mqtt-controller-cfb31",
+    "storage_bucket": "mqtt-controller-cfb31.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:322245622706:android:c8195f8157b5cdb6de02ab",
+        "android_client_info": {
+          "package_name": "com.example.mqtt_controller"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "322245622706-ufup398bv7r28oj2mui8gmenf7cfkou7.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.mqtt_controller",
+            "certificate_hash": "252724e24952533c9c05c9651b165b7b15b54c19"
+          }
+        },
+        {
+          "client_id": "322245622706-abcf0t9kl2889pf6cr3fk5lk5b4q4sli.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB9tMqIn3VvZk5fUMOn2UvVUxB187Wl3yk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "322245622706-abcf0t9kl2889pf6cr3fk5lk5b4q4sli.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "322245622706-8e6j472dmaueg9858kd4q7grn5q8kqqp.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.mqttController"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
