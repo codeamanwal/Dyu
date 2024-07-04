@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'package:mqtt_controller/providers/auth_provider.dart';
+import 'package:mqtt_controller/screens/HomeScreen.dart';
 import 'package:mqtt_controller/screens/home.dart';
 import 'package:mqtt_controller/screens/sign_in.dart';
 import 'package:provider/provider.dart';
@@ -26,6 +27,7 @@ class MyApp extends StatelessWidget {
 
     return SafeArea(
       child: MaterialApp(
+        debugShowCheckedModeBanner: false,
         home: authProvider.user == null ? LoginScreen() : HomeScreen(),
       ),
     );

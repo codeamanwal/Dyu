@@ -6,6 +6,7 @@ import 'package:provider/provider.dart';
 
 import '../providers/auth_provider.dart';
 import '../widgets/buttons.dart';
+import 'HomeScreen.dart';
 import 'home.dart';
 
 class LoginScreen extends StatefulWidget {
@@ -31,6 +32,7 @@ class _LoginScreenState extends State<LoginScreen> {
     final OverlayWidget _overlayWidget = OverlayWidget(context: context);
 
     return Scaffold(
+      resizeToAvoidBottomInset: false,
       body: Padding(
         padding: const EdgeInsets.all(16.0),
         child: Form(

@@ -45,7 +45,8 @@ dependencies:
   flutter_social_button: ^1.1.4+1
   flutter_svg: ^2.0.10+1
   flutter_spinkit: ^5.2.1
-
+  http:
+  geolocator:
 dev_dependencies:
   flutter_test:
     sdk: flutter
